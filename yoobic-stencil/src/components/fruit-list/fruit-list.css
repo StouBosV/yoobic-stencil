@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+.row {
+  background-color: rgb(248,249,250);
+  border-radius: 25px;
+  margin: 2rem 0;
+}
