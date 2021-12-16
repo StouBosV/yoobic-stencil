@@ -1,0 +1,1 @@
+<p>Visually is not anything special. Its just an array of objects. Each object is a fruit with a Name and a Color. I spent most of the time experimenting with Components and thats why as you are going to see, i Created 2 different components. One Component to render the list and the Second to render each list-item. I only did it that way, for extra practice and for fun!</p>
