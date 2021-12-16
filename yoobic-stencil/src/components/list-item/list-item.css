@@ -1,0 +1,57 @@
+:host {
+  display: block;
+}
+
+.paragraph-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.paragraph-wrapper div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+h2 {
+  color: #6c757d;
+  padding: .5rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+p{
+  background-color: #6c757d;
+  color: rgb(248,249,250);
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 55%;
+}
+
+@media screen and (min-width: 470px) {
+  h2 {
+    padding: 1rem;
+    font-size: 1.4rem;
+    border-radius: 8px;
+  }
+
+  p{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p{
+    font-size: 1.3rem;
+  }
+}
